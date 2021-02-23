@@ -8,6 +8,7 @@
 
 <script>
 export default {
+    name: 'header',
     data(){
         return{
             title: "NORTHWEST MISSOURI STATE UNIVERSITY"
@@ -23,7 +24,7 @@ export default {
         height: 50px;
         text-align: left;
         color: white;
-        
+
 
     }
 </style>

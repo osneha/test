@@ -6,6 +6,7 @@
 
 <script>
 export default {
+    name: 'footer',
     data(){
         return{
             footerText : "Copyright NWMSU 2021 "
