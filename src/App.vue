@@ -1,19 +1,15 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to TEST APP by Sneha"/>
-    <comp> </comp>
-    <header></header>
-    <footer></footer>
+    <HelloWorld msg="WELCOME TO INTERNSHIP PAGE"/>
+    <comp></comp>
+    
     
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Component from './components/Component'
-import Header from './components/header.vue'
-import Footer from './components/footer.vue'
-
+import Comp from './components/comp.vue'
 
 
 
@@ -21,9 +17,8 @@ export default {
   name: 'App',
   components: {
     HelloWorld,
-    Component,
-    Header,
-    Footer
+    Comp,
+  
    
   }
 }
@@ -35,7 +30,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: white;
+  background-color: darkgreen;
   margin-top: 60px;
 }
 </style>
