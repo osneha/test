@@ -2,7 +2,14 @@
   <div id="app">
     <HelloWorld msg="WELCOME TO INTERNSHIP PAGE"/>
     <comp></comp>
+    <v-app>
+      <v-footer>
+        <Footer />
+      </v-footer>
+      <f></f>
+
     
+    </v-app>
     
   </div>
 </template>
@@ -10,14 +17,17 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Comp from './components/comp.vue'
-
+import { mdbFooter, mdbContainer, mdbRow, mdbCol } from 'f.vue';
 
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Comp,
+    Comp, mdbFooter,
+      mdbContainer,
+      mdbRow,
+      mdbCol
   
    
   }
@@ -31,7 +41,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
-  background-color: darkgreen;
+  background-color: #006747;
   margin-top: 60px;
 }
 </style>

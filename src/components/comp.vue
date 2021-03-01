@@ -22,9 +22,7 @@ export default {
 header{
     padding: 10px;
     color: white;
-    background-color: darkgreen;
+    background-color:#006747;
 }
-
-
 
 </style>

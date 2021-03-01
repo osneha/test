@@ -21,7 +21,7 @@ export default {
 <style scoped>
 
 p{
-  background-color: darkgreen;
+  background-color:#006747;
   color: white;
 
 }
