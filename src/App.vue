@@ -17,17 +17,14 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Comp from './components/comp.vue'
-import { mdbFooter, mdbContainer, mdbRow, mdbCol } from 'f.vue';
+import Footer from './components/f.vue'
 
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Comp, mdbFooter,
-      mdbContainer,
-      mdbRow,
-      mdbCol
+    Comp, Footer
   
    
   }
