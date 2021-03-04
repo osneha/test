@@ -2,16 +2,20 @@
   <div id="app">
     <HelloWorld msg="WELCOME TO INTERNSHIP PAGE"/>
     <v-app>
-        <Footer />
+      <Landing />
+      <Footer />
     </v-app>
   </div>
 </template>
 <script>
+import Landing from './components/landing.vue'
 import Footer from './components/f.vue'
 export default {
   name: 'App',
   components: {
+     Landing,
      Footer
+     
   }
 }
 </script>
